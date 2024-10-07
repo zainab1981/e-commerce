@@ -10,6 +10,7 @@
 }
 
 .navbar-brand {
+  padding-left: 10px;
   font-size: 1.25rem;
   color: #f8f9fa; 
   font-weight: bold;

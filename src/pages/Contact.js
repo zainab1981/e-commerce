@@ -13,7 +13,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page container my-5">
+    <div className="contact-page  my-5">
       <h2 className="text-center mb-4">Contact Us</h2>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
