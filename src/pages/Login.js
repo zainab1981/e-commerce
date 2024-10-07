@@ -26,6 +26,7 @@ function Login() {
 
   return (
     <div className="login-container">
+      <div className='login-section'>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <div className="form-group">
@@ -52,6 +53,7 @@ function Login() {
         </div>
         <button type="submit" className="btn-primary">Login</button>
       </form>
+      </div>
     </div>
   );
 }

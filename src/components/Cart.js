@@ -31,7 +31,7 @@ function Cart() {
     <div className="cart-container">
       <h2 className="cart-title">Shopping Cart</h2>
       {cartItems.length === 0 ? (
-        <p className="empty-cart-message">Your cart is empty.</p>
+        <p className="empty-cart-message"><strong>Hey, it feels so light!</strong><br />There is nothing in your bag. Lets add some items.</p>
       ) : (
         <>
           <ul className="cart-list">

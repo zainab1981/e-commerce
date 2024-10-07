@@ -1,13 +1,19 @@
 
 .login-container {
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
+  height: 100vh;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 100px;
+}
+.login-section{
+  width: 500px;
+  background-color: #e6cbf38c;
+  padding: 30px;
+  border-radius: 15px;
 }
 .login-container h2 {
   margin-bottom: 20px;
@@ -26,7 +32,7 @@
 .btn-primary {
   width: 100%;
   border-radius: 4px;
-  background-color: #ff0000;
+  background-color: #8177dc;
   color: white;
   border: #cc0000;
   padding: 10px;
@@ -35,7 +41,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #cc0000; 
+  background-color: #403795; 
   color: #ffcccb; 
   transform: scale(1.05); 
 }

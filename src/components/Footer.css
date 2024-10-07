@@ -17,14 +17,14 @@ html, body {
 
 .footer {
   background-color: #f7c9e9;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 20px;
   width: 100%;
 }
 
 .footer a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
